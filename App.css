@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+#body-div {
+  width: 100%;
+  height: 100%;
+}
+
+.button {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  color: white;
+  
+}
+
+.button-container {
+  width: 25%;
+  height: 50px;
+  display: inline-block;
+  position: relative;
+  border: 1px green solid;
+  margin: 0;
+  
+  
+}
+
+#calculator {
+  width: 300px;
+  height: 200px;
+  border: 1px blue solid;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%)
+}
+
+#display {
+  width: 75%;
+  display: inline-block;
+  text-align: right;
+  padding-right: 5%;
+  font-family: dejavu sans mono;
+  font-size: 18px;
+}
+
+#one, #two, #three, #four, #five, 
+#six, #seven, #eight, #nine, #zero, #decimal {
+  background-color: cadetblue;
+} 
+
+#add, #subtract, #multiply, #divide {
+  background-color: coral;
+} 
+
+#equals {
+  background-color: rgb(35, 238, 35);
+}
+
+#clear {
+  background-color: darkgray;
+}
